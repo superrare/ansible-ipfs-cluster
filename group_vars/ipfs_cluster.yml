@@ -4,3 +4,6 @@ ipfs_cluster_arch: amd64
 ipfs_cluster_version: v0.14.4
 ipfs_cluster_fd_max: 10000
 ipfs_cluster_listen_multiaddress: "/ip4/0.0.0.0/tcp/9096"
+ipfs_cluster_consensus: "crdt"
+ipfs_cluster_crdt_trusted_peers: ["*"]
+ipfs_cluster_crdt_cluster_name: "jacobs-ipfs-cluster"

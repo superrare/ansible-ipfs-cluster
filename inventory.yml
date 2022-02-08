@@ -1,6 +1,8 @@
 [ipfs]
-# Write here your ipfs nodes
 35.224.108.167
+34.141.35.132
+34.176.26.182
+
 
 [ipfs_cluster:children]
 ipfs
