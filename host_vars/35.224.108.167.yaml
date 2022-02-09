@@ -1,0 +1,7 @@
+ipfs_peer_id: "12D3KooWDVbg8aNzrC1a2KKfdhVjAK3fWoZgMHaQNeDXVtJ2YnSt"
+ipfs_private_key: "CAESQGFyuqxvlj20giNefQ1PkU2vQvmcL23YNWnmer7VzrweNp/8AAzUg1copbHTiUubFuxUHgn3jT9gnES/tQn4w3k="
+
+ipfs_cluster_id: "12D3KooWFDp7dUkjnKLh9DxQxQDp6kHVk4C628AT8AWRidEh9HhZ"
+ipfs_cluster_private_key: "CAESQCwlQ4lmkEmtyFC96OisuoMvzcSD2ja/ecjgN/y3PYYvUEwhfQBHsQcsrpMRE325tQ4CLH8EB1DihYo6b539ZdA="
+
+ipfs_cluster_peer_addr: "/dns4/0.0.0.0/tcp/9096/ipfs/12D3KooWDVbg8aNzrC1a2KKfdhVjAK3fWoZgMHaQNeDXVtJ2YnSt"
