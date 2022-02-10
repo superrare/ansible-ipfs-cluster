@@ -1,9 +1,9 @@
 dist_url: https://dist.ipfs.io
-ipfs_cluster_secret: "341bfefecf9d91e135e34436e7ac5389c729da16ad403d16b545f8a7f0b0062d"
+ipfs_cluster_secret: "5d9e3252ed093fee53c0b45d78de1f5527530fc02f5f7e827dcbfe65e6f45ede"
 ipfs_cluster_arch: amd64
 ipfs_cluster_version: v0.14.4
 ipfs_cluster_fd_max: 10000
 ipfs_cluster_listen_multiaddress: "/ip4/0.0.0.0/tcp/9096"
 ipfs_cluster_consensus: "crdt"
 ipfs_cluster_crdt_trusted_peers: ["*"]
-ipfs_cluster_crdt_cluster_name: "jacobs-ipfs-cluster"
+ipfs_cluster_crdt_cluster_name: "jacobs-big-ipfs-cluster"
