@@ -1,0 +1,14 @@
+ipfs_peer_id: "12D3KooWKSDT5AYiVQwmb9oahbN68TW5Dk1QA8mKbe9NqCqNpaep"
+ipfs_private_key: "CAESQA4x3tlbfEbnQrQDlqaWjWpBNyRskyromCuEtOMatSkcjug7wzQCueaNtMy5psdDY9f49xCtzZoqp7EKsaNGbZ0="
+
+ipfs_cluster_id: "12D3KooWRV1KvAw5uvbTjLaiENyQoaHtT4KBctiWTXHvwebVZSFF"
+ipfs_cluster_private_key: "CAESQBQaDtPv226OQpnN1YQ4GyLAlpSvskxKd9MAkrbfY3U86MVjtmzLOFgjbr/PodpsCXoirANn33ojtkugHmU6CP4="
+
+ipfs_cluster_peer_addr: "/ip4/104.155.15.45/tcp/9096/p2p/12D3KooWGi3JB1ySN4KgZeAbHLvqXYAMK3mkfb7J6FJUzvmJj3uF"
+
+## Configurations to allow remote ipfs-cluster client access
+ipfs_cluster_restapi_http_listen_multiaddress: "/ip4/10.168.0.3/tcp/9094"
+ipfs_cluster_restapi_cors_allowed_origins: ["*"] 
+ipfs_cluster_restapi_cors_allowed_methods: ["GET"] 
+ipfs_cluster_restapi_cors_exposed_headers: [ "Content-Type","X-Stream-Output","X-Chunked-Output","X-Content-Length"]
+
