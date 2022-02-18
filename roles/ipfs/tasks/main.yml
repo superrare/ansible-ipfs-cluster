@@ -154,7 +154,7 @@
     mode: 0644
     backup: true
   tags:
-    - update-config
+    - update-ipfs-config
   notify: restart IPFS
 
 - name: "[update-config] set version file (to notify restart on upgrades)"
@@ -166,7 +166,7 @@
     owner: ipfs
     group: ipfs
   tags:
-    - update-config
+    - update-ipfs-config
   notify: restart IPFS
   
 - name: "[update-config] reload systemd"
@@ -175,7 +175,7 @@
     daemon_reload: yes
     name: ipfs
   tags:
-    - update-config
+    - update-ipfs-config
   when:
     - not (ansible_distribution == "Amazon" and ansible_distribution_major_version == "NA")
     - not (ansible_distribution == "Ubuntu" and ansible_distribution_version is version('15.04', '<'))
@@ -188,5 +188,5 @@
     state: started
     enabled: yes
   tags:
-    - update-config
+    - update-ipfs-config
 
