@@ -12,3 +12,4 @@ ipfs_cluster_restapi_cors_allowed_origins: ["*"]
 ipfs_cluster_restapi_cors_allowed_methods: ["GET"] 
 ipfs_cluster_restapi_cors_exposed_headers: [ "Content-Type","X-Stream-Output","X-Chunked-Output","X-Content-Length"]
 
+ipfs_address_gateway: "/ip4/10.168.0.3/tcp/8080"

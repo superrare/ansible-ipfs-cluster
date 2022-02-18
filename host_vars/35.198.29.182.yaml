@@ -15,3 +15,6 @@ ipfs_cluster_restapi_cors_exposed_headers: [ "Content-Type","X-Stream-Output","X
 
 ## Configurations to allow remote ipfs client access
 ipfs_api_listen: "/ip4/0.0.0.0/tcp/5001"
+
+## Open up the ipfs gateway
+ipfs_address_gateway: "/ip4/10.158.0.2/tcp/8080"

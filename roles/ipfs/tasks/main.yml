@@ -141,3 +141,52 @@
     name: ipfs
     state: started
     enabled: yes
+
+
+########## Update and restart configs only
+- name: "[update-config] copy default config"
+  become: yes
+  template:
+    src: home/ipfs/ipfs_default_config
+    dest: "{{ ipfs_home }}/.ipfs/config"
+    owner: ipfs
+    group: ipfs
+    mode: 0644
+    backup: true
+  tags:
+    - update-config
+  notify: restart IPFS
+
+- name: "[update-config] set version file (to notify restart on upgrades)"
+  become: yes
+  copy:
+    content: "{{ ipfs_version }}"
+    dest: "{{ ipfs_home }}/ipfs_deployed_version"
+    mode: 0644
+    owner: ipfs
+    group: ipfs
+  tags:
+    - update-config
+  notify: restart IPFS
+  
+- name: "[update-config] reload systemd"
+  become: yes
+  systemd:
+    daemon_reload: yes
+    name: ipfs
+  tags:
+    - update-config
+  when:
+    - not (ansible_distribution == "Amazon" and ansible_distribution_major_version == "NA")
+    - not (ansible_distribution == "Ubuntu" and ansible_distribution_version is version('15.04', '<'))
+    - not (ansible_distribution == "Debian" and ansible_distribution_version is version('8', '<'))
+
+- name: "[update-config] enable and start IPFS"
+  become: yes
+  service:
+    name: ipfs
+    state: started
+    enabled: yes
+  tags:
+    - update-config
+
