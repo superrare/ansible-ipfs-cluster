@@ -8,6 +8,8 @@ ipfs_cluster_peer_addr: "/ip4/104.155.15.45/tcp/9096/p2p/12D3KooWGi3JB1ySN4KgZeA
 
 ## Configurations to allow remote ipfs-cluster client access
 ipfs_cluster_restapi_http_listen_multiaddress: "/ip4/10.168.0.3/tcp/9094"
+#ipfs_cluster_restapi_http_listen_multiaddress: "/ip4/0.0.0.0/tcp/9094"
+
 ipfs_cluster_restapi_cors_allowed_origins: ["*"] 
 ipfs_cluster_restapi_cors_allowed_methods: ["GET"] 
 ipfs_cluster_restapi_cors_exposed_headers: [ "Content-Type","X-Stream-Output","X-Chunked-Output","X-Content-Length"]

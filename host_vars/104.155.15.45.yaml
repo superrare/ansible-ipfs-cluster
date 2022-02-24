@@ -6,4 +6,5 @@ ipfs_cluster_private_key: "CAESQHd81u4qXSE7Egpw6fUzvra8OGQEH7K5aqYacaGudhCkZmL8L
 
 ipfs_cluster_peer_addr: "/dns4/0.0.0.0/tcp/9096/ipfs/12D3KooWDVbg8aNzrC1a2KKfdhVjAK3fWoZgMHaQNeDXVtJ2YnSt"
 
-ipfs_address_gateway: "/ip4/10.132.0.3/tcp/8080"
+  #ipfs_address_gateway: "/ip4/10.132.0.3/tcp/8080"
+ipfs_address_gateway: "/ip4/127.0.0.1/tcp/8080"
