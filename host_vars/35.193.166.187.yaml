@@ -1,8 +1,8 @@
-ipfs_peer_id: "12D3KooWLDtibXjf55vH5YKU8NA4SKtriRsqZHp29jT9XwoKfMtg"
-ipfs_private_key: "CAESQPOFz43W+q5dY3rPel+d2M3qtRX/+KKwOlhh7CIFlcwumpvFGd5qvpB6Y8JvFHRbvnuG/q1KnOwQpaoj51QhEtU="
+ipfs_peer_id: "12D3KooWCb5AwrwwL49unteeT8rKTqDNzannTggTpnBxFFw4jtrH"
+ipfs_private_key: "CAESQAcnDEqpRHedooehl+E1Az1+oECH2jorDGfyCwzag2DGKStK0GmkcUKZn41d0greemvD7Ya2AcwVzoF5hTrKvFY="
 
-ipfs_cluster_id: "12D3KooWCWyzS5keW5XghoXUqTziFC2j4DmuAC3XRAxvDNp1Ahxb"
-ipfs_cluster_private_key: "CAESQBEU0bBwPkUe3Br/kFcZV1LGrbaPQSmcJUmDwPVi7PrTKB8cS7KBQNCGu8l20LZHwcmo+Eedp28u0feBaX7ZTkA="
+ipfs_cluster_id: "12D3KooWDAKBuTM16meUNHzbwNYggS3aC7bJo3rxvUSWL8dU1skR"
+ipfs_cluster_private_key: "CAESQFkLmu02O2/ZV4v7tG8CPAY0eW3duG3b+2Bwy15SQccyMa9Otug3MXrVdLh1snYZBGMimdT7gqYl7CvDf5PiZE4="
 
 ipfs_cluster_peer_addr: "/ip4/104.155.15.45/tcp/9096/p2p/12D3KooWGi3JB1ySN4KgZeAbHLvqXYAMK3mkfb7J6FJUzvmJj3uF"
 
@@ -17,4 +17,4 @@ ipfs_cluster_restapi_cors_exposed_headers: [ "Content-Type","X-Stream-Output","X
 ipfs_api_listen: "/ip4/0.0.0.0/tcp/5001"
 
 ## Open up the ipfs gateway
-ipfs_address_gateway: "/ip4/10.158.0.2/tcp/8080"
+ipfs_address_gateway: "/ip4/0.0.0.0/tcp/8080"
